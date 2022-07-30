@@ -1,0 +1,17 @@
+.job-nav-link {
+  text-decoration: none;
+}
+
+.jobs-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .jobs-bg-container {
+    flex-direction: row;
+  }
+}

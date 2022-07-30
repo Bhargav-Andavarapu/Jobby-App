@@ -1,0 +1,48 @@
+.job-item-details-container {
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .job-item-details-container {
+    padding: 30px;
+  }
+}
+
+.similar-job-list {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+@media screen and (min-width: 768px) {
+  .similar-job-list {
+    padding-left: 30px;
+  }
+}
+
+.jobs-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.similar-jobs-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+  align-self: flex-start;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .similar-jobs-heading {
+    font-size: 35px;
+    padding-left: 30px;
+  }
+}

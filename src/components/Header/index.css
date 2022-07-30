@@ -1,0 +1,98 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 10vh;
+  background-color: #202020;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 30px 50px 30px 50px;
+    height: 15vh;
+  }
+}
+
+.website-logo {
+  width: 75px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 150px;
+  }
+}
+
+.mobile-view-container {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .mobile-view-container {
+    display: none;
+  }
+}
+
+.header-list {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.mobile-nav-icons {
+  font-size: 22px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.mobile-logout-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0;
+}
+
+.desktop-view-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desktop-view-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.nav-items {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.desktop-logout-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desktop-logout-button {
+    display: flex;
+  }
+}
